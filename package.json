@@ -1,0 +1,35 @@
+{
+  "name": "@tldc/dynamo-client",
+  "version": "1.0.0",
+  "description": "A JavaScript AWS DynamoDB Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tldc/dynamo-client.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "dynamo",
+    "aws",
+    "javascript",
+    "tldc"
+  ],
+  "author": "tldctech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tldc/dynamo-client/issues"
+  },
+  "homepage": "https://gitlab.com/tldc/dynamo-client#readme",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "3.3.0",
+    "@aws-sdk/client-dynamodb": "^3.19.0",
+    "@aws-sdk/credential-provider-cognito-identity": "3.3.0",
+    "aws-sdk": "2.828.0"
+  }
+}
